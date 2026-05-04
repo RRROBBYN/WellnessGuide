@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "987765198988",
+    "project_id": "wellnessguide-bca37",
+    "storage_bucket": "wellnessguide-bca37.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:987765198988:android:b38e4b6bc4e15023a0aba9",
+        "android_client_info": {
+          "package_name": "com.example.wellnessguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "987765198988-tq66d7ameqlav1v9hnb7e9naa5scph8p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.wellnessguide",
+            "certificate_hash": "58c5541d05cab01aea41009431bccc56f2a90250"
+          }
+        },
+        {
+          "client_id": "987765198988-rb47ujduoov7ldhtnn5kp1rj8sg5b8om.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFur-5ZjlhEM1e4WTHQU9tUAk3-JCcFrU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "987765198988-rb47ujduoov7ldhtnn5kp1rj8sg5b8om.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

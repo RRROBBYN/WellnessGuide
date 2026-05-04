@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+<item android:title="Profile">
+        <menu>
+            <item
+                android:id="@+id/menu_my_profile"
+                android:icon="@drawable/ic_user"
+                android:title="My Profile" />
+
+            <item
+                android:id="@+id/menu_health_background"
+                android:icon="@drawable/ic_medical_cross"
+                android:title="Health Background" />
+
+            <item
+                android:id="@+id/menu_lifestyle_profile"
+                android:icon="@drawable/ic_leaf"
+                android:title="Lifestyle Profile" />
+
+        </menu>
+    </item>
+
+    <item android:title="Assessment">
+        <menu>
+            <item
+                android:id="@+id/menu_start_wellness_check"
+                android:icon="@drawable/ic_checklist"
+                android:title="Start Wellness Check" />
+
+            <item
+                android:id="@+id/menu_symptom_assessment"
+                android:icon="@drawable/ic_symptom"
+                android:title="Symptom Assessment" />
+
+            <item
+                android:id="@+id/menu_lifestyle_check"
+                android:icon="@drawable/ic_lifestyle"
+                android:title="Lifestyle Check" />
+
+            <item
+                android:id="@+id/menu_mental_wellness"
+                android:icon="@drawable/ic_mood"
+                android:title="Mental Wellness" />
+
+            <item
+                android:id="@+id/menu_sleep_tracker"
+                android:icon="@drawable/ic_sleep"
+                android:title="Sleep Tracker" />
+        </menu>
+    </item>
+
+    <item android:title="Results">
+        <menu>
+            <item
+                android:id="@+id/menu_result_history"
+                android:icon="@drawable/ic_history"
+                android:title="Assessment History" />
+
+            <item
+                android:id="@+id/menu_latest_result"
+                android:icon="@drawable/ic_latest"
+                android:title="Latest Result" />
+
+            <item
+                android:id="@+id/menu_recovery_plan"
+                android:icon="@drawable/ic_recovery"
+                android:title="Recovery Plan" />
+
+            <item
+                android:id="@+id/menu_health_summary"
+                android:icon="@drawable/ic_summary"
+                android:title="Health Summary" />
+
+            <item
+                android:id="@+id/menu_download_report"
+                android:icon="@drawable/ic_download_report"
+                android:title="Download Report" />
+        </menu>
+    </item>
+
+    <item android:title="Activity">
+        <menu>
+            <item
+                android:id="@+id/menu_daily_checkin"
+                android:icon="@drawable/ic_daily_check"
+                android:title="Daily Check-in" />
+
+            <item
+                android:id="@+id/menu_symptom_log"
+                android:icon="@drawable/ic_symptom_log"
+                android:title="Symptom Log" />
+
+            <item
+                android:id="@+id/menu_sleep_log"
+                android:icon="@drawable/ic_sleep_log"
+                android:title="Sleep Log" />
+
+            <item
+                android:id="@+id/menu_mood_stress"
+                android:icon="@drawable/ic_stress"
+                android:title="Mood &amp; Stress" />
+
+            <item
+                android:id="@+id/menu_physical_activity"
+                android:icon="@drawable/ic_steps"
+                android:title="Physical Activity" />
+
+            <item
+                android:id="@+id/menu_reminders"
+                android:icon="@drawable/ic_bell"
+                android:title="Reminders" />
+        </menu>
+    </item>
+
+    <item android:title="Safety">
+        <menu>
+            <item
+                android:id="@+id/menu_warning_signs"
+                android:icon="@drawable/ic_warning"
+                android:title="Warning Signs" />
+
+            <item
+                android:id="@+id/menu_disclaimer"
+                android:icon="@drawable/ic_info"
+                android:title="Disclaimer" />
+
+            <item
+                android:id="@+id/menu_consult_professional"
+                android:icon="@drawable/ic_doctor"
+                android:title="Consult a Professional" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu_credits"
+        android:icon="@drawable/ic_profile"
+        android:title="Credits" />
+    <item
+        android:id="@+id/settingsFragment"
+        android:icon="@drawable/ic_settings"
+        android:title="Settings" />
+
+</menu>
+

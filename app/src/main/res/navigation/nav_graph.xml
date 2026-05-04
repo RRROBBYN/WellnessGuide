@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.wellnessguide.ui.home.HomeFragment">
+        <action
+            android:id="@+id/action_home_to_assessment"
+            app:destination="@id/assessmentFragment" />
+        <action
+            android:id="@+id/action_home_to_history"
+            app:destination="@id/historyFragment" />
+        <action
+            android:id="@+id/action_home_to_profile"
+            app:destination="@id/profileFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/startWellnessCheckFragment"
+        android:name="com.example.wellnessguide.ui.assessment.StartWellnessCheckFragment">
+        <action
+            android:id="@+id/action_start_to_assessment"
+            app:destination="@id/assessmentFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/assessmentFragment"
+        android:name="com.example.wellnessguide.ui.assessment.AssessmentFragment">
+        <action
+            android:id="@+id/action_assessment_to_lifestyle"
+            app:destination="@id/lifestyleCheckFragment" />
+        <action
+            android:id="@+id/action_assessment_to_result"
+            app:destination="@id/resultFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/lifestyleCheckFragment"
+        android:name="com.example.wellnessguide.ui.assessment.LifestyleCheckFragment">
+        <action
+            android:id="@+id/action_lifestyle_to_mental"
+            app:destination="@id/mentalWellnessFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/mentalWellnessFragment"
+        android:name="com.example.wellnessguide.ui.assessment.MentalWellnessFragment">
+        <action
+            android:id="@+id/action_mental_to_sleep"
+            app:destination="@id/sleepTrackerFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/sleepTrackerFragment"
+        android:name="com.example.wellnessguide.ui.assessment.SleepTrackerFragment">
+        <action
+            android:id="@+id/action_sleep_to_result"
+            app:destination="@id/resultFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.example.wellnessguide.ui.result.ResultFragment" />
+
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.example.wellnessguide.ui.history.HistoryFragment" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.wellnessguide.ui.profile.ProfileFragment" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.wellnessguide.ui.settings.SettingsFragment" />
+    <fragment
+        android:id="@+id/safetyInfoFragment"
+        android:name="com.example.wellnessguide.ui.safety.SafetyInfoFragment" />
+    <fragment
+        android:id="@+id/dynamicDrawerFragment"
+        android:name="com.example.wellnessguide.ui.dynamic.DynamicDrawerFragment" />
+    <fragment
+        android:id="@+id/remindersFragment"
+        android:name="com.example.wellnessguide.ui.reminders.RemindersFragment" />
+    <fragment
+        android:id="@+id/activityFeatureFragment"
+        android:name="com.example.wellnessguide.ui.activity.ActivityFeatureFragment" />
+
+    <fragment
+        android:id="@+id/routeTrackerFragment"
+        android:name="com.example.wellnessguide.ui.activity.RouteTrackerFragment" />
+    <fragment
+        android:id="@+id/physicalActivityFragment"
+        android:name="com.example.wellnessguide.ui.activity.PhysicalActivityFragment" />
+    <fragment
+        android:id="@+id/resultsFeatureFragment"
+        android:name="com.example.wellnessguide.ui.results.ResultsFeatureFragment" />
+    <fragment
+        android:id="@+id/profileFeatureFragment"
+        android:name="com.example.wellnessguide.ui.profile.ProfileFeatureFragment" />
+</navigation>
+
