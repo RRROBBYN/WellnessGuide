@@ -9,4 +9,5 @@ Masong, Dan Julian
 Tapulgo, Carl
 Yumang, Kurt Alfred
 
-Manual
+
+[APK Release](https://github.com/RRROBBYN/WellnessGuide/releases/tag/apk-release)
