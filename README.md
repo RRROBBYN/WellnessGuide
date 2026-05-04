@@ -1,13 +1,13 @@
 Mobile Systems and Technologies
 
-members:
-Agtas, Gideon
-Ciubal, Terence Vincent
-Clemente, Robyn Paul
-Español, Earl Justine
-Masong, Dan Julian
-Tapulgo, Carl
-Yumang, Kurt Alfred
+members:<br>
+Agtas, Gideon <br>
+Ciubal, Terence Vincent <br>
+Clemente, Robyn Paul <br>
+Español, Earl Justine <br>
+Masong, Dan Julian <br>
+Tapulgo, Carl <br>
+Yumang, Kurt Alfred <br>
 
 [User Manual](https://github.com/RRROBBYN/WellnessGuide/blob/master/USER-MANUAL.pdf)
 
